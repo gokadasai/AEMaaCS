@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/vinay",
+        "create path (nt:unstructured) /content/dam/vinay/jcr:content",
+        "set properties on /content/dam/vinay/jcr:content\n  set cq:conf{String} to /conf/vinay\n  set jcr:title{String} to \"Vinay Sites Project\"\nend"
+    ]
+}
